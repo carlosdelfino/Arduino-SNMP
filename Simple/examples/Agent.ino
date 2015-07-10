@@ -7,12 +7,13 @@
  *
  */
 
-#include "Streaming.h"         // Include the Streaming library
 #include <Ethernet.h>          // Include the Ethernet library
 #include <SPI.h>
-#include "Agentuino.h"
-#include "MIB.h"
-#include "Variable.h"
+
+#include "../../Simple/Agentuino.h"
+#include "../../Simple/MIB.h"
+#include "../../Simple/Streaming.h"         // Include the Streaming library
+#include "../../Simple/Variable.h"
 
 IPAddress address;
 

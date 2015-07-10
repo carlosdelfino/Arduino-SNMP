@@ -1,4 +1,4 @@
-#include "Variable.h"
+#include "../Simple/Variable.h"
 
 uint32_t locUpTime              = 0;                                            // read-only (static)
 char locContact[20]             = "Miroslav Pivovarsky";                        // should be stored/read from EEPROM - read/write (not done for simplicity)
