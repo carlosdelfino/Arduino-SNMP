@@ -38,8 +38,8 @@
 
 #include "Arduino.h"
 #include "Udp.h"
-#include "MIB.h"
-#include "Variable.h"
+#include "../examples/MIB.h"
+#include "../examples/Variable.h"
 
 extern "C" {
     // callback function

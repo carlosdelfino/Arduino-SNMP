@@ -24,7 +24,8 @@
 // sketch_aug23a
 //
 
-#include "Agentuino.h"
+#include "../examples/Agentuino.h"
+
 #include "EthernetUdp.h"
 
 EthernetUDP Udp;
