@@ -1,3 +1,27 @@
+Instalação Básica
+=================
+
+faça o download deste projeto usando o link https://github.com/carlosdelfino/Arduino-SNMP/archive/master.zip
+Descompacte o arquivo entre no novo diretório e copie uma das pastas, Extended
+ou Simple, renomeando-a para "*agentuino*" para dentro da pasta Library que está
+na pasta Arduino em seu diretório de projetos.
+
+Lembre-se a versão "**Extended**" vem com as seguintes bibliocas em conjunto que
+anteriormente podiam ser obtidas no site http://arduinana.org ou mesmo no 
+google code no link https://code.google.com/p/agentuino/, portanto não precisa
+instala-las novamente, caso já as tenha, e esteja tendo dificuldades para 
+compilar seu código, tente remover da copia que fez os arquivos:
+
+ * Flash.cpp
+ * Flash.h
+ * MemoryFree.cpp
+ * MemoryFree-win.h
+ * MemoryFree.h
+ * Streaming.h
+ 
+
+Outras informações 
+========================
 Usage code https://code.google.com/p/agentuino/
 
 Implemented SNMP trap functions from Enmyerp http://forum.arduino.cc/index.php?topic=50848.60
